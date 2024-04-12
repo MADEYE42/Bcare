@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="ContactUs/style.css">
+    <link rel="stylesheet" href="/Group17/styles/styleContact.css">
 </head>
+
 <body>
     <nav>
         <div class="logo">
             Fetal-X
         </div>
-         <div class="menu">
-            <a href="http://127.0.0.1:5500/S.E-Group-17/index.html">Home</a>
-            <a href="http://127.0.0.1:5500/S.E-Group-17/indexDoctor.html">Doctor's Page</a>
-            <a href="http://127.0.0.1:5500/S.E-Group-17/indexAbout.html">About Us</a>
-            <a href="http://127.0.0.1:5500/S.E-Group-17/indexWe.html">We Recommend</a>
-            <a href="http://127.0.0.1:5500/S.E-Group-17/indexContact.html">Contact Us</a>
-         </div>
-         <div class="Register">
+        <div class="menu">
+            <a href="/Group17/index.html">Home</a>
+            <a href="/Group17/Doctor.html">Doctor's Page</a>
+            <a href="/Group17/About.html">About Us</a>
+            <a href="/Group17/Werecommend.html">We Recommend</a>
+        </div>
+        <div class="Register">
             <a href="http://152.67.9.127:5000/">Register</a>
-         </div>
+        </div>
     </nav>
     <div class="container">
         <h1>Contact Us</h1>
@@ -37,8 +38,8 @@
             <div class="form-group">
                 <label for="phone_number">Phone Number :</label>
                 <input type="text" id="phone_number" name="phone_number" required>
-                </div>
-                <div class="form-group">
+            </div>
+            <div class="form-group">
                 <label for="message">Message :</label>
                 <textarea id="message" name="message" required></textarea>
             </div>
@@ -48,21 +49,22 @@
     <footer>
         &copy; Team 17. All rights reserved.
     </footer>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function sendEmail() {
-        Email.send({
-            Host: "smtp.gmail.com",
-            Username: "gmadye13@gmail.com",
-            Password: "password",
-            To: 'gmadye13@gmail.com',
-            From: document.getElementById('email').value,
-            Subject: "This is the subject",
-            Body: "And this is the body"
-        }).then(
-            message => alert(message)
-        );
-    }
-</script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "gmadye13@gmail.com",
+                Password: "password",
+                To: 'gmadye13@gmail.com',
+                From: document.getElementById('email').value,
+                Subject: "This is the subject",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
 </body>
+
 </html>

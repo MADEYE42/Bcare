@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Poppins';
-    background: linear-gradient(to left, rgba(1, 11, 75, 0.4), rgba(5, 1, 66, 0.2)), url('Images/NormalBg.jpeg');
+    background: linear-gradient(to left, rgba(1, 11, 75, 0.4), rgba(5, 1, 66, 0.2)), url('/Group17/Images/NormalBg.jpeg');
     background-size: cover;
 }
 
@@ -84,9 +84,9 @@ select {
     border: none;
     border-radius: 8px;
     border: 2px solid lightblue;
-        box-shadow: 0 10px 10px black;
-        background: rgba(10, 129, 138, 0.4);
-        color: rgb(8, 64, 83);
+    box-shadow: 0 10px 10px black;
+    background: rgba(10, 129, 138, 0.4);
+    color: rgb(8, 64, 83);
     appearance: none;
     text-align: center;
 }
@@ -108,7 +108,7 @@ select {
 .content .data {
     padding: 25px;
     background-color: lightblue;
-        border: 2px solid darkblue;
+    border: 2px solid darkblue;
 
 }
 

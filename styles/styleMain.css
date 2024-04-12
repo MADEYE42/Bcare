@@ -1,38 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&family=Poppins:wght@300;600&family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
-*{
+
+* {
     padding: 0;
-    margin:0;
-    box-sizing:border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
-header{
+
+header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(1, 75, 69, 0.4), rgba(1, 66, 48, 0.2)), url('/S.E-Group-17/Main_page/Images/Mainpg.jpeg');
+    background: linear-gradient(rgba(1, 75, 69, 0.4), rgba(1, 66, 48, 0.2)), url('/Group17/Images/Mainpg.jpeg');
     background-size: cover;
-    font-family:Poppins;
+    font-family: Poppins;
 }
-nav{
+
+nav {
     padding: 30px;
     width: 100%;
     height: 100px;
-    color:white;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .logo {
-   font-size: 2rem;
-   letter-spacing: 2px;
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
-.menu a{
-    color:white;
+
+.menu a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
     position: relative;
 }
-.menu a:before{
-    content:"" ;
+
+.menu a:before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -41,40 +47,47 @@ nav{
     border-bottom: 2px solid darkcyan;
     transition: 0.4s linear;
 }
-.menu a:hover:before{
+
+.menu a:hover:before {
     width: 90%;
 }
-.Register a{
-    color:white;
+
+.Register a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
     background: darkcyan;
     border-radius: 10px;
 }
-.Register a:hover{
+
+.Register a:hover {
     color: darkcyan;
     background: white;
     transition: 0.4s linear;
 }
-.header-text{
+
+.header-text {
     max-width: 650px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: lightcyan;
 }
-.header-text span{
+
+.header-text span {
     letter-spacing: 5px;
 }
-.header-text h1{
+
+.header-text h1 {
     font-size: 3.5rem;
     padding-bottom: 10px;
 }
-section a{
-    color:white;
+
+section a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 20px 50px;
@@ -82,7 +95,8 @@ section a{
     border-radius: 10px;
     letter-spacing: 5px;
 }
-section a:hover{
+
+section a:hover {
     color: darkcyan;
     background: white;
     transition: 0.4s linear;
