@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(to left, rgba(1, 11, 75, 0.4), rgba(5, 1, 66, 0.2)), url('/Group17/Images/NormalBg.jpeg');
+    background: linear-gradient(to left, rgba(1, 11, 75, 0.4), rgba(5, 1, 66, 0.2)), url('../Images/NormalBg.jpeg');
     background-size: cover;
     font-family: "Poppins";
     margin: 0;

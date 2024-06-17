@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Poppins';
-    background: linear-gradient(to left, rgba(1, 11, 75, 0.4), rgba(5, 1, 66, 0.2)), url('/Group17/Images/NormalBg.jpeg');
+    background: linear-gradient(to left, rgba(1, 11, 75, 0.4), rgba(5, 1, 66, 0.2)), url('../Images/NormalBg.jpeg');
     background-size: cover;
 }
 
@@ -160,7 +160,7 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin-top: auto;
+    bottom: 0;
 }
 
 .data {
