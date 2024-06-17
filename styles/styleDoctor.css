@@ -41,9 +41,10 @@ nav {
 .logo {
     font-size: 2rem;
     letter-spacing: 2px;
+    font-family: inherit;
 }
 
-.mennu a {
+.menu a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -51,7 +52,7 @@ nav {
     position: relative;
 }
 
-.mennu a:before {
+.menu a:before {
     content: "";
     position: absolute;
     top: 0;
@@ -62,7 +63,7 @@ nav {
     transition: 0.4s linear;
 }
 
-.mennu a:hover:before {
+.menu a:hover:before {
     width: 90%;
 }
 
@@ -70,6 +71,29 @@ nav {
     background-color: darkblue;
     color: white;
 }
+
+.Register a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: darkblue;
+    border-radius: 10px;
+}
+
+.Register a:hover {
+    color: darkblue;
+    background: white;
+    transition: 0.4s linear;
+}
+
+header {
+    background: darkblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
 
 .menu,
 .content {
