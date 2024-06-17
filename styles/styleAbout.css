@@ -10,7 +10,7 @@ body {
     line-height: 1.6;
     margin: 0;
     font-family: 'Poppins';
-    background: linear-gradient(to left, rgba(1, 11, 75, 0.4), rgba(5, 1, 66, 0.2)), url('../Images/NormalBg.jpeg');
+    background: url('../Images/NormalBg.jpeg');
     background-size: cover;
 
 }
